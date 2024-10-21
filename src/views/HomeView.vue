@@ -47,7 +47,7 @@ export default {
   methods: {
     changeTheme(name) {
       if (name == 'Rent') {
-        this.backgroundImage = 'url(/src/assets/pics/bike.png)'
+        this.backgroundImage = 'url(@/assets/pics/bike.png)'
         this.textColor = 'var(--orange)';
       } else if (name == 'Be safe') {
         this.backgroundImage = 'url(/src/assets/pics/helmet.png)';
