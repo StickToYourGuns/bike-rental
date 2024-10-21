@@ -24,8 +24,6 @@
           <input v-model="signUpForm.firstName" name="firstName" id="firstName" type="text">
           <label for="lastName">last Name</label>
           <input v-model="signUpForm.lastName" name="lastName" id="lastName" type="text">
-          <!-- <label for="clientId">Client ID *</label>
-          <input v-model="signUpForm.clientId" name="clientId" id="clientId" type="text" required> -->
         </div>
 
         <div v-else class="auth-form__container__right-form">
@@ -343,7 +341,6 @@ input:invalid {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--orange); */
   border: 0;
   cursor: pointer;
   transition: .3s;

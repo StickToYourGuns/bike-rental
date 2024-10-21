@@ -54,10 +54,6 @@ export default {
         setDetailsImage(approved) {
             return approved ? "url('/src/assets/pics/card-officer-full.jpg')" : "url('/src/assets/pics/card-officer-disabled-full.jpg')";
         },
-        // dateFormatter(string) {
-        //     let date = new Date(string);
-        //     return date.toLocaleString("ru");
-        // },
     },
     computed: {
         colorSetter() {
@@ -128,7 +124,6 @@ ul {
     top: 340px;
     left: 1000px;
     background-color: black;
-    /* background-image: url(../assets/pics/card-officer-full.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

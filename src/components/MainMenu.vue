@@ -105,7 +105,6 @@ export default {
 
 @keyframes jumping {
     from {
-        /* bottom: -50px; */
     }
 
     50% {
@@ -114,7 +113,6 @@ export default {
     }
 
     to {
-        /* bottom: -50px; */
     }
 }
 
